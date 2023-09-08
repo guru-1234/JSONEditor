@@ -36,7 +36,7 @@ and can save the structure as JSON in a desired Path user need. Also read and lo
 
 ## Dynamically creating Gameobjects ##
    * Just can click the 'Create Game Object' button, if the previous steps are being correctly followed 
-   * Just check if you have pre-defined prefab in the follwing path in the same name also
+   * Just check if you have pre-defined prefab in the following path in the same name also
        * Assets/Prefabs/TestPefab
          
         ![Prefabs](https://github.com/guru-1234/JSONEditor/assets/59476943/b9f95dfe-d252-40d9-b229-fbe038b5b3dd)
