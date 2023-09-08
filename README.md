@@ -1,4 +1,4 @@
-# Game Object Instatiater Using JSON Data
+# Game Object Instantiater Using JSON Data
 
 Game object instantiater tool is used to dynamically generate gameobject with a custom heirarchal strucutre 
 and can save the structure as JSON in a desired Path user need. Also read and load the pre-exist JSON data.
