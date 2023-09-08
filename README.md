@@ -6,8 +6,10 @@ and can save the structure as JSON in a desired Path user need. Also read and lo
 # How to Use the Insatntiater Tool #
 
 ## Genererate JSON Data ##
-    * create a template for your heirarchial structure with 'RootParent' class in inspector 
-    * Feed the desired path in 'Path TO Save JSON' field
-    * Feed the file name to be in thr 'File Name To Save'
-    * Click 'Generate JSON Data' button to generate a JSON file in the desired path
-    ![image](https://github.com/thecodebuzz/FileSizePOC/blob/master/TheCodebuzz.png?raw=true)
+   * Create a template for your heirarchial structure with 'RootParent' class in inspector 
+   * Feed the desired path in 'Path TO Save JSON' field
+   * Feed the file name to be in thr 'File Name To Save'
+   * Click 'Generate JSON Data' button to generate a JSON file in the desired path
+     ![image](https://github.com/thecodebuzz/FileSizePOC/blob/master/TheCodebuzz.png?raw=true)
+## Editing JSON as string and storing
+   *
