@@ -254,13 +254,13 @@ public class RootObject : ScriptableObject
             
             if (h.children == null)
                 return;
-            
+
             //if(AssetDatabase.LoadAssetAtPath<UnityEngine.Object>("Assets/Prefabs/TestPrefab.prefab")==null)
             //{
             //    Debug.LogWarning("Prefab is not in the desired path");
             //    return;
             //}
-            GameObject prefab = (GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<UnityEngine.Object>("Assets/GameobjectInstantiater/Prefabs/TestPrefab.prefab"));
+            GameObject prefab = null;//(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<UnityEngine.Object>("Assets/GameobjectInstantiater/Prefabs/TestPrefab.prefab"));
             if(!addCanvasForFirstObject)
             {
                 prefab.AddComponent<Canvas>();
@@ -269,11 +269,11 @@ public class RootObject : ScriptableObject
             }
             _allGameobjects.Add(prefab);
             prefab.name = h.name;
-            Selection.activeGameObject = GettingParent(h.parentName);
-            if (Selection.activeTransform != null)
-            {
-                prefab.transform.SetParent(Selection.activeTransform, false);
-            }
+            //Selection.activeGameObject = GettingParent(h.parentName);
+            //if (Selection.activeTransform != null)
+            //{
+            //    prefab.transform.SetParent(Selection.activeTransform, false);
+            //}
             Color32 color = new Color32((byte)h.color.r, (byte)h.color.g, (byte)h.color.b, (byte)h.color.a);
             Vector3 position = new Vector3((int)h.position.x, (int)h.position.y, (int)h.position.z);
             Vector3 rotation = new Vector3((int)h.rotation.x, (int)h.rotation.y, (int)h.rotation.z);
